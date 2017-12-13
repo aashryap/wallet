@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Wallet</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-fab top right edge>
+    <button ion-fab mini><ion-icon name="add"></ion-icon></button>
+    <ion-fab-list>
+      <button ion-fab (click)="openExpensePage()"><ion-icon name="add"></ion-icon></button>
+      <button ion-fab (click)="openExpenseList()"><ion-icon name="list"></ion-icon></button>
+      <button ion-fab><ion-icon name="logo-vimeo"></ion-icon></button>
+    </ion-fab-list>
+  </ion-fab> 
+ <page-charts></page-charts>
+  
+</ion-content>
